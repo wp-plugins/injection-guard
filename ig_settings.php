@@ -8,7 +8,7 @@
 <form action="<?php echo $_SERVER['REQUEST_URI']; ?>" method="post">
 
 
-<div class="welcome-panel" id="request_panel">
+<div class="welcome-panel hide" id="request_panel">
 <a class="welcome-panel-close dismiss_link">Dismiss</a>
 <img class="flower_img" src="<?php echo plugin_dir_url(__FILE__); ?>/img/kindness.png">
 
