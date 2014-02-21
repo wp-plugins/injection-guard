@@ -74,7 +74,10 @@ License: GPL3
 	
 	
 	
-	function register_ig_styles() {
+	function register_ig_styles($hook_suffix) {
+		
+		if($hook_suffix!='settings_page_ig_settings')
+		return false;
 		
 		wp_register_style( 'ig-style', plugins_url('css/style.css', __FILE__) );
 		
