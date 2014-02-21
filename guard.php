@@ -47,6 +47,8 @@ class guard_plugins implements guard_base{
 		$request_uri = array_filter($request_uri, 'strlen');
 		if(!empty($request_uri)){
 			$ret = implode('/', $request_uri);
+		}else{
+			$ret = '/';
 		}
 		return $ret;
 	}
