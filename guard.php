@@ -12,7 +12,7 @@ interface guard_base{
 	public function init();
 	public function update_log();
 	public function get_requests_log();
-	public function get_requests_log_updated($var);
+	public function get_requests_log_updated($var=array());
 	public function get_blacklisted();
 }	
 class guard_plugins implements guard_base{
