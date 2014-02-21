@@ -28,10 +28,11 @@
 
 <?php if(!empty($ig_logs)): ?>
 <?php foreach($ig_logs as $log_head=>$params): ?>
+<?php $count_blacklisted = isset($ig_blacklisted[$log_head])?count($ig_blacklisted[$log_head]):0; ?>
 	<li>
     	<span class="icon-flag"></span>
  
- 		<?php echo $log_head.' ('.count($params).')'; ?>
+ 		<?php echo $log_head.' ('.$count_blacklisted.'/'.count($params).')'; ?>
 		<?php if(!empty($params)): ?>
         <ul>
         <?php foreach($params as $params=>$param): ?>
