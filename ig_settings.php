@@ -3,7 +3,7 @@
 
 <div class="icon32" id="icon-options-general"><br></div><h2><span class="icon-large icon-settings"></span>&nbsp;Injection Guard - Settings</h2>
 <hr />
-<?php echo $settings['notification']; $wpurl = get_bloginfo('wpurl'); ?>
+
 
 <form action="<?php echo $_SERVER['REQUEST_URI']; ?>" method="post">
 
