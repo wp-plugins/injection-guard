@@ -1,7 +1,6 @@
 ﻿=== Injection Guard ===
 
 Contributors: fahadmahmood
-Donate link: http://goo.gl/GHX5N
 Tags: sql injection, http injection, site hacked, hacking, anti-hacking, injection, injection guard, injection shield, unauthorized requests, invalid access, error 404
 Requires at least: 3.0
 Tested up to: 4.1
